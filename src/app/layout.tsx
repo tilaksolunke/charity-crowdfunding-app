@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import 'remixicon/fonts/remixicon.css'
 import "./globals.css";
 import ThemeProvider from "@/providers/theme-provider";
 import { ClerkProvider } from "@clerk/nextjs";
@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}:{
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <ClerkProvider>
       <html lang="en">
