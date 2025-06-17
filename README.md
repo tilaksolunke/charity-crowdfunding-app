@@ -1,40 +1,27 @@
-<<<<<<< HEAD
-# charity-crowdfunding-app
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Charity Crowdfunding App
+A full-stack donation platform that enables users to create, manage, and contribute to real-time fundraising campaigns.
 
-## Getting Started
+Built using Next.js 14, MongoDB, Firebase, and Stripe, this app ensures secure authentication, seamless payment processing, and dynamic campaign updates.
 
-First, run the development server:
+🔧 Tech Stack:
+Frontend: Next.js 14, TypeScript, Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Backend & Auth: Firebase (Auth + Firestore)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Database: MongoDB (via Mongoose ODM)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Payments: Stripe API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Hosting: Vercel
 
-## Learn More
+💡 Key Features:
+🔐 User Authentication with Firebase
 
-To learn more about Next.js, take a look at the following resources:
+💸 Stripe Integration for secure donation payments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📢 Real-time Notifications for campaign activity
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+📊 Campaign Management: Add/edit/remove campaigns (title, goal, progress)
 
-## Deploy on Vercel
+📱 Fully responsive UI optimized for all devices
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 210afff (Initial commit from Create Next App)
